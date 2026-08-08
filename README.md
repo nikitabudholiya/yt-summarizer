@@ -60,7 +60,7 @@ Chrome Extension (popup)
 
 **Mac / Linux:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/yt-summarizer.git
+git clone https://github.com/nikitabudholiya/yt-summarizer.git
 cd yt-summarizer
 chmod +x scripts/setup.sh
 ./scripts/setup.sh
@@ -68,7 +68,7 @@ chmod +x scripts/setup.sh
 
 **Windows:**
 ```
-git clone https://github.com/YOUR_USERNAME/yt-summarizer.git
+git clone https://github.com/nikitabudholiya/yt-summarizer.git
 cd yt-summarizer
 scripts\setup.bat
 ```
