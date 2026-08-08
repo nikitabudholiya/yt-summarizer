@@ -197,4 +197,4 @@ MIT — use it, modify it, share it.
 
 ---
 
-<p align="center">Made with ❤️ using LangChain · Groq · FastAPI</p>
+<p align="center">Made with LangChain · Groq · FastAPI</p>
