@@ -1,0 +1,29 @@
+### YT Summarizer API — Test File
+### Install "REST Client" extension, then click "Send Request" above each block
+
+@baseUrl = http://localhost:8000
+
+# ─────────────────────────────────────────
+### Health check
+GET {{baseUrl}}/health
+
+
+# ─────────────────────────────────────────
+### Summarize a video (paste any YouTube URL)
+POST {{baseUrl}}/summarize
+Content-Type: application/json
+
+{
+  "video_url": "https://www.youtube.com/watch?v=Gfr50f6ZBvo"
+}
+
+
+# ─────────────────────────────────────────
+### Ask a question about the video
+POST {{baseUrl}}/ask
+Content-Type: application/json
+
+{
+  "video_url": "https://www.youtube.com/watch?v=Gfr50f6ZBvo",
+  "question": "What are the main topics discussed in this video?"
+}

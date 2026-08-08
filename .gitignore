@@ -1,0 +1,42 @@
+# ── Secrets (NEVER commit these) ──────────────────────────────────────────
+backend/.env
+*.env
+
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── VS Code ───────────────────────────────────────────────────────────────
+.vscode/settings.json      # personal editor prefs — not shared
+# (launch.json IS committed so teammates can run with F5)
+
+# ── macOS ─────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Windows ───────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Model cache (large, re-downloaded on first run) ───────────────────────
+*.faiss
+*.pkl
+sentence_transformers_cache/
+~/.cache/huggingface/
+
+# ── Misc ──────────────────────────────────────────────────────────────────
+*.log
+*.zip
+node_modules/
+extension/venv/
